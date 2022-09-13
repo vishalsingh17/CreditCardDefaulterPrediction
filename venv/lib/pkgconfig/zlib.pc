@@ -1,0 +1,13 @@
+prefix=/home/vishal/Desktop/CreditCardDefaulterPrediction/venv
+exec_prefix=/home/vishal/Desktop/CreditCardDefaulterPrediction/venv
+libdir=/home/vishal/Desktop/CreditCardDefaulterPrediction/venv/lib
+sharedlibdir=/home/vishal/Desktop/CreditCardDefaulterPrediction/venv/lib
+includedir=/home/vishal/Desktop/CreditCardDefaulterPrediction/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
