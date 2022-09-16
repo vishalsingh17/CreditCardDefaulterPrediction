@@ -7,3 +7,5 @@ sklearn
 jupyter
 scipy
 imblearn
+statsmodels
+xgboost
